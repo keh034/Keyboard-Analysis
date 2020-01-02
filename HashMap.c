@@ -98,7 +98,7 @@ char* list( HashMap* h) {
 		}
 	}
 
-	return topFive;
+	return topFive[0];
 }
 
 int getValue( HashMap* h, char* k ) {

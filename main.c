@@ -10,7 +10,7 @@ int main ()
 	int value;
 	char* letSeq;
 	char* key = malloc( sizeof(char) * 2 );
-	fp = fopen("/mnt/c/Users/Kevin Huang/keyAnalysis/scrape.txt", "r");
+	fp = fopen("./scrape.txt", "r");
 
 	HashMap* h = makeHashMap();
 	
@@ -37,7 +37,7 @@ int main ()
 	}
 
 	
-	printf("%d", getValue( h, "ax" ));
+	printf("%d\n", getValue( h, "ax" ));
 	
 	//table is filled with the tally
 	//find the most common two letter sequences
